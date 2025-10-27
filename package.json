@@ -4,8 +4,9 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
